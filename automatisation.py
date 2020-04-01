@@ -5,7 +5,7 @@ import subprocess as p
 import argparse
 def usage():	
 	print('usage : vmtool --function [optional] <arguments>')
-	print("--startall : Start all virtual machines and network,the connect by ssh\
+	print("--startall : Start all virtual machines and network,then connect by ssh\
 		         \n--stopall : Stop all running virtual network and machines\
 		         \n--stop or --start <domain_names> [one or more separated by space] , kill or run domain")
 
